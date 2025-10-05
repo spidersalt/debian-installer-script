@@ -1,6 +1,6 @@
 # debian-installer-script
 System Setup and Configuration Script for Debian 13 GNOME
-Overview
+## Overview
 This Bash script automates the setup and configuration of a Debian 13 GNOME system. It handles system updates, installs essential packages, configures applications, sets up a firewall, and organizes directories for a secure and efficient environment. The script is designed to streamline the process of setting up a new Debian 13 GNOME installation with privacy and productivity tools.
 Features
 
@@ -17,13 +17,13 @@ Autostart Setup: Configures autostart for applications like Filen, Syncthing, Cr
 Security Enhancements: Removes Firefox, installs privacy-focused browsers, and verifies VeraCrypt installation with PGP signatures.
 Cleanup: Removes unnecessary files and optimizes the package cache.
 
-Prerequisites
+### Prerequisites
 
 Operating System: Debian 13 with GNOME desktop environment.
 Permissions: Must be run with sudo privileges.
 Internet Connection: Required for downloading packages and repositories.
 
-Usage
+### Usage
 
 Clone or download the script from this repository.
 Make the script executable:sudo chmod u+x installer.sh
@@ -33,7 +33,7 @@ Run the script with superuser privileges:sudo ./installer.sh
 
 
 
-Post-Setup Instructions
+### Post-Setup Instructions
 After running the script, a readme.txt file will be created in ~/Desktop/start-here with the following recommended steps to complete your setup:
 
 Run the FreeFileSync installer.
